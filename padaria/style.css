@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #E0C992;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 80%; 
+    justify-content: center;
+}
+footer{
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: #E0B651;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 80%; 
+    justify-content: center;
+}
+.conteiner{
+    margin-top: 30px;
+    width: 90%;
+    text-align: center;
+    
+    background-color: #E09938;
+    border-radius: 10px;
+}
+.navigation-bar{
+    display: flex;
+    flex-direction: row;
+    background-color: coral;
+    width: 90%;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#logo{
+    border-radius: 10px;
+    width: 100px;
+    margin: 10px;
+}
+#fofis{
+    width: 150px;
+    border-radius: 50px;
+    
+}
+.button_nav{
+    height: 50px;
+    margin: 10px;
+    border: 0;
+    border-radius: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 32px;
+    font-family:"Delius",serif;
+}
+.button_nav:hover {
+    background: linear-gradient(135deg, #E07C38, #E09938);
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  }
+h1{
+    font-family: "Delius",serif;
+}
+p{
+    font-family:"Delius",serif;
+    padding: 10px;
+}
